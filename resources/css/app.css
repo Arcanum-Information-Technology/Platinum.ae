@@ -1,0 +1,243 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@layer base {
+    :root {
+        --color-gold: #C5A265;
+        --color-gold-hover: #b38e52;
+        --color-gold-light: #e5d1a8;
+        --color-gold-dark: #8e6d34;
+        --color-onyx: #0A0A0A;
+        --color-onyx-card: #141416;
+        --color-onyx-border: #26262a;
+        --color-cream: #FAF7F2;
+        --color-cream-muted: #e7e0d3;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        color: #e4e4e7;
+        background-color: #0A0A0A;
+        overflow-x: hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .font-serif-heading {
+        font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+        letter-spacing: -0.01em;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+
+    /* Custom smooth gold focus rings */
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible {
+        outline: 2px solid var(--color-gold);
+        outline-offset: 2px;
+    }
+
+    /* Custom luxury gold scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #0A0A0A;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #27272a;
+        border-radius: 4px;
+        border: 1px solid rgba(197, 162, 101, 0.2);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #C5A265;
+    }
+}
+
+/* Luxury micro-animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes goldGlow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 15px rgba(197, 162, 101, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(197, 162, 101, 0.45);
+    }
+}
+
+@keyframes floatSlow {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-gold-glow {
+    animation: goldGlow 3s ease-in-out infinite;
+}
+
+.animate-float {
+    animation: floatSlow 6s ease-in-out infinite;
+}
+
+/* Gold Gradient Utilities */
+.bg-gold-gradient {
+    background: linear-gradient(135deg, #DFCA9B 0%, #C5A265 50%, #9F7A3E 100%);
+}
+
+.text-gold-gradient {
+    background: linear-gradient(135deg, #F3E5C8 0%, #C5A265 50%, #A88344 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-gold-subtle {
+    border-color: rgba(197, 162, 101, 0.25);
+}
+
+/* Glassmorphism Classes */
+.plat-glass {
+    background: rgba(18, 18, 20, 0.78);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.plat-glass-gold {
+    background: rgba(22, 20, 17, 0.82);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(197, 162, 101, 0.3);
+}
+
+.plat-glass-light {
+    background: rgba(250, 247, 242, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(197, 162, 101, 0.2);
+}
+
+/* Card hover glow effects */
+.plat-card-hover {
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.plat-card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8), 0 0 25px rgba(197, 162, 101, 0.2);
+    border-color: rgba(197, 162, 101, 0.5);
+}
+
+/* Luxury button styling */
+.btn-gold {
+    background: linear-gradient(135deg, #DFCA9B 0%, #C5A265 50%, #9F7A3E 100%);
+    color: #0A0A0A;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(197, 162, 101, 0.25);
+}
+
+.btn-gold:hover {
+    background: linear-gradient(135deg, #E8D7B0 0%, #D4AF37 50%, #AD8747 100%);
+    box-shadow: 0 6px 25px rgba(197, 162, 101, 0.45);
+    transform: translateY(-2px);
+}
+
+.btn-outline-gold {
+    background: transparent;
+    color: #C5A265;
+    border: 1px solid #C5A265;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    background: rgba(197, 162, 101, 0.12);
+    border-color: #DFCA9B;
+    color: #F3E5C8;
+    transform: translateY(-2px);
+}
+
+/* Typography styles */
+.gold-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.375rem 0.875rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: rgba(197, 162, 101, 0.12);
+    border: 1px solid rgba(197, 162, 101, 0.35);
+    color: #DFCA9B;
+}
+
+/* Image zoom containers */
+.img-zoom-container {
+    overflow: hidden;
+}
+
+.img-zoom-container img {
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.img-zoom-container:hover img {
+    transform: scale(1.06);
+}

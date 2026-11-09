@@ -1,0 +1,685 @@
+{
+    "settings": [
+        {
+            "group": "general",
+            "key": "site_name",
+            "value": "Platinum Hospitality Management",
+            "type": "text",
+            "description": "Company and site title"
+        },
+        {
+            "group": "general",
+            "key": "site_tagline",
+            "value": "Your Strategic Partner in Culinary Excellence",
+            "type": "text",
+            "description": "Tagline appearing in header and meta"
+        },
+        {
+            "group": "general",
+            "key": "currency_symbol",
+            "value": "AED ",
+            "type": "text",
+            "description": "Currency symbol"
+        },
+        {
+            "group": "general",
+            "key": "currency_code",
+            "value": "AED",
+            "type": "text",
+            "description": "Currency code"
+        },
+        {
+            "group": "branding",
+            "key": "site_logo",
+            "value": "images/platinum-logo.png",
+            "type": "image",
+            "description": "Primary brand logo"
+        },
+        {
+            "group": "branding",
+            "key": "site_favicon",
+            "value": "images/platinum-logo.png",
+            "type": "image",
+            "description": "Favicon"
+        },
+        {
+            "group": "branding",
+            "key": "primary_color",
+            "value": "#C5A265",
+            "type": "text",
+            "description": "Primary champagne gold color"
+        },
+        {
+            "group": "branding",
+            "key": "accent_color",
+            "value": "#D4AF37",
+            "type": "text",
+            "description": "Accent gold color"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_short_desc",
+            "value": "Platinum Hospitality Management is a UAE-based food and beverage management company dedicated to creating, operating, and elevating exceptional dining concepts.",
+            "type": "textarea",
+            "description": "Company short description"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_full_desc",
+            "value": "With decades of combined industry experience, Platinum Hospitality Management specializes in building, managing, and scaling high-performing food and beverage brands across the UAE and the Middle East.",
+            "type": "textarea",
+            "description": "Full company overview"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_phone",
+            "value": "+971 4 360 8888",
+            "type": "text",
+            "description": "Contact phone"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_email",
+            "value": "info@platinumhospitality.ae",
+            "type": "text",
+            "description": "Contact email"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_address",
+            "value": "Level 14, Boulevard Plaza, Downtown Dubai",
+            "type": "text",
+            "description": "Headquarters address"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_city",
+            "value": "Dubai",
+            "type": "text",
+            "description": "City"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_state",
+            "value": "Dubai",
+            "type": "text",
+            "description": "Emirate"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_country",
+            "value": "United Arab Emirates",
+            "type": "text",
+            "description": "Country"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_postal_code",
+            "value": "00000",
+            "type": "text",
+            "description": "Postal code"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_latitude",
+            "value": "25.1972",
+            "type": "text",
+            "description": "Latitude"
+        },
+        {
+            "group": "restaurant",
+            "key": "restaurant_longitude",
+            "value": "55.2744",
+            "type": "text",
+            "description": "Longitude"
+        },
+        {
+            "group": "social",
+            "key": "social_facebook",
+            "value": "https://facebook.com/platinumhospitality",
+            "type": "text",
+            "description": "Facebook link"
+        },
+        {
+            "group": "social",
+            "key": "social_instagram",
+            "value": "https://instagram.com/platinumhospitality",
+            "type": "text",
+            "description": "Instagram link"
+        },
+        {
+            "group": "social",
+            "key": "social_twitter",
+            "value": "https://twitter.com/platinum_mgmt",
+            "type": "text",
+            "description": "Twitter/X link"
+        },
+        {
+            "group": "social",
+            "key": "social_linkedin",
+            "value": "https://linkedin.com/company/platinum-hospitality-management",
+            "type": "text",
+            "description": "LinkedIn link"
+        },
+        {
+            "group": "seo",
+            "key": "default_meta_title",
+            "value": "Platinum Hospitality Management | F&B Management & Dining Brands UAE",
+            "type": "text",
+            "description": "Default meta title"
+        },
+        {
+            "group": "seo",
+            "key": "default_meta_description",
+            "value": "Platinum Hospitality Management is a premier UAE-based F&B management company operating Shakespeare Middle East, Otantik Café & Restaurant, and Chinese Connection.",
+            "type": "textarea",
+            "description": "Default meta description"
+        }
+    ],
+    "opening_hours": [
+        {
+            "day_of_week": 1,
+            "day_name": "Monday",
+            "is_closed": false,
+            "open_time_1": "09:00:00",
+            "close_time_1": "19:00:00",
+            "note": "Breakfast, Lunch & Corporate Dining",
+            "sort_order": 1
+        },
+        {
+            "day_of_week": 2,
+            "day_name": "Tuesday",
+            "is_closed": false,
+            "open_time_1": "10:00:00",
+            "close_time_1": "20:00:00",
+            "note": "All Day Dining & Afternoon Tea",
+            "sort_order": 2
+        },
+        {
+            "day_of_week": 3,
+            "day_name": "Wednesday",
+            "is_closed": false,
+            "open_time_1": "11:00:00",
+            "close_time_1": "20:00:00",
+            "note": "Bistro & Terrace Service",
+            "sort_order": 3
+        },
+        {
+            "day_of_week": 4,
+            "day_name": "Thursday",
+            "is_closed": false,
+            "open_time_1": "11:00:00",
+            "close_time_1": "21:00:00",
+            "note": "Extended Dinner & Lounge",
+            "sort_order": 4
+        },
+        {
+            "day_of_week": 5,
+            "day_name": "Friday",
+            "is_closed": false,
+            "open_time_1": "13:00:00",
+            "close_time_1": "21:00:00",
+            "note": "Friday Brunch & Evening Service",
+            "sort_order": 5
+        },
+        {
+            "day_of_week": 6,
+            "day_name": "Saturday",
+            "is_closed": false,
+            "open_time_1": "09:00:00",
+            "close_time_1": "23:00:00",
+            "note": "Weekend Celebration & Late Dining",
+            "sort_order": 6
+        },
+        {
+            "day_of_week": 0,
+            "day_name": "Sunday",
+            "is_closed": false,
+            "open_time_1": "13:00:00",
+            "close_time_1": "19:00:00",
+            "note": "Family Dining & Patisserie High Tea",
+            "sort_order": 7
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Shakespeare Middle East",
+            "slug": "shakespeare-middle-east",
+            "description": "Timeless Parisian-Victorian café, artisan patisserie, European gastronomy, and handcrafted drinks.",
+            "image": "images/platinum/brands/shakespeare.jpg",
+            "status": "published",
+            "sort_order": 1,
+            "is_featured": true
+        },
+        {
+            "id": 2,
+            "name": "Otantik Café & Restaurant",
+            "slug": "otantik-cafe-restaurant",
+            "description": "Authentic Middle Eastern & Mediterranean dining, gourmet charcoal grills, artisanal mezze, and luxury shisha lounge.",
+            "image": "images/platinum/brands/otantik.jpg",
+            "status": "published",
+            "sort_order": 2,
+            "is_featured": true
+        },
+        {
+            "id": 3,
+            "name": "Chinese Connection",
+            "slug": "chinese-connection",
+            "description": "Contemporary pan-Asian cuisine, handmade dim sum, sizzling wok specialties, and aromatic regional delights.",
+            "image": "images/platinum/brands/chinese-connection.jpg",
+            "status": "published",
+            "sort_order": 3,
+            "is_featured": true
+        }
+    ],
+    "subcategories": [
+        {
+            "id": 1,
+            "category_id": 1,
+            "name": "Artisanal Breakfast & Sandwiches",
+            "slug": "sh-breakfast-sandwiches",
+            "description": "Freshly baked artisan breads, gourmet paninis, eggs benedict, and morning delights.",
+            "status": "published",
+            "sort_order": 1
+        },
+        {
+            "id": 2,
+            "category_id": 1,
+            "name": "French Patisserie & Desserts",
+            "slug": "sh-patisserie",
+            "description": "Exquisite handcrafted tarts, macarons, eclairs, and delicate cakes.",
+            "status": "published",
+            "sort_order": 2
+        },
+        {
+            "id": 3,
+            "category_id": 2,
+            "name": "Charcoal Grills & Kebabs",
+            "slug": "otantik-grills",
+            "description": "Succulent lamb chops, shish tawook, and traditional skewered kebabs grilled over natural charcoal.",
+            "status": "published",
+            "sort_order": 1
+        },
+        {
+            "id": 4,
+            "category_id": 2,
+            "name": "Authentic Mezze & Platters",
+            "slug": "otantik-mezze",
+            "description": "Velvety hummus, smoky mutabbal, fresh fattoush, and hot spiced appetizers.",
+            "status": "published",
+            "sort_order": 2
+        },
+        {
+            "id": 5,
+            "category_id": 3,
+            "name": "Handcrafted Dim Sum & Dumplings",
+            "slug": "chinese-dim-sum",
+            "description": "Steaming bamboo baskets with crystal prawn dumplings, chicken siu mai, and pan-fried potstickers.",
+            "status": "published",
+            "sort_order": 1
+        },
+        {
+            "id": 6,
+            "category_id": 3,
+            "name": "Wok Specialties & Sizzling Mains",
+            "slug": "chinese-wok",
+            "description": "Crispy kung pao, slow-braised beef, stir-fried noodles, and aromatic jasmine rice bowls.",
+            "status": "published",
+            "sort_order": 2
+        }
+    ],
+    "menu_items": [
+        {
+            "category_id": 1,
+            "subcategory_id": 1,
+            "name": "Vegetarian Panini with Spinach, Tomatoes & Cheese",
+            "slug": "vegetarian-sandwich-panini-with-spinach-leaves-tomatoes-and-cheese",
+            "short_description": "Toasted artisan sourdough panini with fresh baby spinach leaves, ripe vine tomatoes, melted mozzarella and aged fontina.",
+            "full_description": "A signature favorite prepared with warm crusty sourdough, lightly dressed baby spinach, sweet sun-ripened tomatoes, and a blend of rich Italian cheeses melted to perfection with a touch of basil pesto.",
+            "price": 54.00,
+            "discounted_price": null,
+            "primary_image": "images/platinum/dishes/vegetarian-sandwich-panini-with-spinach-leaves-tomatoes-and-cheese.jpg",
+            "ingredients": ["Artisan Sourdough", "Baby Spinach", "Vine Tomatoes", "Mozzarella", "Fontina Cheese", "Extra Virgin Olive Oil", "Basil Pesto"],
+            "allergens": ["Gluten", "Dairy"],
+            "calories": 480,
+            "preparation_time": "12 mins",
+            "serving_size": "1 Sandwich",
+            "is_vegetarian": true,
+            "is_vegan": false,
+            "is_spicy": false,
+            "spice_level": 0,
+            "is_featured": true,
+            "is_available": true,
+            "sort_order": 1,
+            "status": "published"
+        },
+        {
+            "category_id": 1,
+            "subcategory_id": 1,
+            "name": "Classic Croque Monsieur",
+            "slug": "classic-croque-monsieur",
+            "short_description": "Toasted brioche, smoked turkey breast, Dijon béchamel, and gratinated Gruyère cheese.",
+            "full_description": "Classic Parisian recipe with rich velvety béchamel and golden roasted Gruyère crust served with crisp mixed greens.",
+            "price": 62.00,
+            "discounted_price": null,
+            "primary_image": "images/platinum/dishes/croque-monsieur.jpg",
+            "ingredients": ["French Brioche", "Smoked Turkey", "Gruyere Cheese", "Dijon Mustard", "Bechamel"],
+            "allergens": ["Gluten", "Dairy"],
+            "calories": 560,
+            "preparation_time": "15 mins",
+            "serving_size": "1 Portion",
+            "is_vegetarian": false,
+            "is_vegan": false,
+            "is_spicy": false,
+            "spice_level": 0,
+            "is_featured": true,
+            "is_available": true,
+            "sort_order": 2,
+            "status": "published"
+        },
+        {
+            "category_id": 1,
+            "subcategory_id": 2,
+            "name": "Artisanal Strawberry Tartlet",
+            "slug": "artisanal-strawberry-tartlet",
+            "short_description": "Crisp sweet pastry shell filled with Madagascar vanilla bean diplomat cream and glazed fresh strawberries.",
+            "full_description": "Delicate butter pastry filled with rich pastry cream infused with natural Madagascar bourbon vanilla and crowned with hand-selected mountain strawberries.",
+            "price": 38.00,
+            "discounted_price": null,
+            "primary_image": "images/platinum/dishes/strawberry-tartlet.jpg",
+            "ingredients": ["Butter Pastry", "Madagascar Vanilla Cream", "Fresh Strawberries", "Apricot Glaze"],
+            "allergens": ["Gluten", "Dairy", "Eggs"],
+            "calories": 320,
+            "preparation_time": "Immediate",
+            "serving_size": "1 Tartlet",
+            "is_vegetarian": true,
+            "is_vegan": false,
+            "is_spicy": false,
+            "spice_level": 0,
+            "is_featured": true,
+            "is_available": true,
+            "sort_order": 3,
+            "status": "published"
+        },
+        {
+            "category_id": 2,
+            "subcategory_id": 3,
+            "name": "Otantik Mixed Charcoal Grill",
+            "slug": "otantik-mixed-charcoal-grill",
+            "short_description": "A magnificent platter of tender lamb chops, shish tawook, Aleppo kofta kebab, roasted vegetables, and biwaz bread.",
+            "full_description": "Premium Australian lamb cutlets, marinated free-range chicken cubes, and hand-minced spiced kofta skewers flame-grilled over natural lumpwood charcoal.",
+            "price": 125.00,
+            "discounted_price": 110.00,
+            "primary_image": "images/platinum/dishes/mixed-grill.jpg",
+            "ingredients": ["Lamb Chops", "Chicken Skewers", "Aleppo Kofta", "Charred Tomatoes", "Biwaz Bread", "Garlic Toum"],
+            "allergens": ["Gluten"],
+            "calories": 820,
+            "preparation_time": "25 mins",
+            "serving_size": "Platter for 1-2",
+            "is_vegetarian": false,
+            "is_vegan": false,
+            "is_spicy": false,
+            "spice_level": 1,
+            "is_featured": true,
+            "is_available": true,
+            "sort_order": 4,
+            "status": "published"
+        },
+        {
+            "category_id": 2,
+            "subcategory_id": 4,
+            "name": "Grand Mediterranean Mezze Selection",
+            "slug": "grand-mediterranean-mezze-selection",
+            "short_description": "Traditional hummus tahina, smoked eggplant mutabbal, vine leaves warak enab, and crispy falafel with hot pita.",
+            "full_description": "A rich colorful sharing spread honoring historic Levantine recipes. Prepared daily with stone-ground sesame tahina, cold-pressed Palestinian olive oil, and freshly baked wholewheat pita.",
+            "price": 75.00,
+            "discounted_price": null,
+            "primary_image": "images/platinum/dishes/mezze-selection.jpg",
+            "ingredients": ["Chickpeas", "Tahina", "Charred Eggplant", "Pomegranate Pearls", "Vine Leaves", "Olive Oil"],
+            "allergens": ["Sesame", "Gluten"],
+            "calories": 490,
+            "preparation_time": "10 mins",
+            "serving_size": "Sharing for 2",
+            "is_vegetarian": true,
+            "is_vegan": true,
+            "is_spicy": false,
+            "spice_level": 0,
+            "is_featured": true,
+            "is_available": true,
+            "sort_order": 5,
+            "status": "published"
+        },
+        {
+            "category_id": 3,
+            "subcategory_id": 5,
+            "name": "Imperial Crystal Har Gow & Siu Mai",
+            "slug": "imperial-crystal-har-gow-siu-mai",
+            "short_description": "Handmade translucent shrimp dumplings and tender chicken-mushroom siu mai steamed fresh to order.",
+            "full_description": "Classic Cantonese dim sum delicacy made with wild tiger prawns, bamboo shoots, and sesame oil wrapped in delicate starch wrappers.",
+            "price": 58.00,
+            "discounted_price": null,
+            "primary_image": "images/platinum/dishes/dim-sum.jpg",
+            "ingredients": ["Wild Tiger Prawns", "Bamboo Shoots", "Chicken", "Shiitake Mushroom", "Sesame Oil"],
+            "allergens": ["Shellfish", "Sesame", "Gluten"],
+            "calories": 360,
+            "preparation_time": "15 mins",
+            "serving_size": "6 Dumplings",
+            "is_vegetarian": false,
+            "is_vegan": false,
+            "is_spicy": false,
+            "spice_level": 0,
+            "is_featured": true,
+            "is_available": true,
+            "sort_order": 6,
+            "status": "published"
+        },
+        {
+            "category_id": 3,
+            "subcategory_id": 6,
+            "name": "Szechuan Fire Wok Beef & Jasmine Rice",
+            "slug": "szechuan-fire-wok-beef-jasmine-rice",
+            "short_description": "Tender flank steak wok-tossed with Szechuan peppercorns, scallions, bell peppers, and chili pods.",
+            "full_description": "Cooked over roaring high-heat wok flame to impart true wok-hei smoky aroma. Tossed with imported Szechuan peppers and served with fragrant steamed jasmine rice.",
+            "price": 86.00,
+            "discounted_price": null,
+            "primary_image": "images/platinum/dishes/wok-beef.jpg",
+            "ingredients": ["Beef Flank Steak", "Szechuan Peppercorns", "Bell Peppers", "Scallions", "Soy Reduction", "Jasmine Rice"],
+            "allergens": ["Soy", "Gluten"],
+            "calories": 640,
+            "preparation_time": "14 mins",
+            "serving_size": "1 Portion",
+            "is_vegetarian": false,
+            "is_vegan": false,
+            "is_spicy": true,
+            "spice_level": 2,
+            "is_featured": true,
+            "is_available": true,
+            "sort_order": 7,
+            "status": "published"
+        }
+    ],
+    "navigation_items": [
+        {
+            "location": "header",
+            "title": "Home",
+            "url": "/",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 1,
+            "is_active": true
+        },
+        {
+            "location": "header",
+            "title": "About Us",
+            "url": "/about",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 2,
+            "is_active": true
+        },
+        {
+            "location": "header",
+            "title": "Brands",
+            "url": "/brands",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 3,
+            "is_active": true,
+            "children": [
+                {
+                    "title": "Shakespeare Middle East",
+                    "url": "/brands/shakespeare-middle-east"
+                },
+                {
+                    "title": "Otantik Café & Restaurant",
+                    "url": "/brands/otantik-cafe-restaurant"
+                },
+                {
+                    "title": "Chinese Connection",
+                    "url": "/brands/chinese-connection"
+                }
+            ]
+        },
+        {
+            "location": "header",
+            "title": "Franchise",
+            "url": "/franchise",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 4,
+            "is_active": true
+        },
+        {
+            "location": "header",
+            "title": "Contact Us",
+            "url": "/contact",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 5,
+            "is_active": true
+        },
+        {
+            "location": "footer_links",
+            "title": "Our Heritage & Story",
+            "url": "/about",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 1,
+            "is_active": true
+        },
+        {
+            "location": "footer_links",
+            "title": "Portfolio Brands",
+            "url": "/brands",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 2,
+            "is_active": true
+        },
+        {
+            "location": "footer_links",
+            "title": "Franchise Opportunities",
+            "url": "/franchise",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 3,
+            "is_active": true
+        },
+        {
+            "location": "footer_links",
+            "title": "Partner Inquiries",
+            "url": "/contact",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 4,
+            "is_active": true
+        },
+        {
+            "location": "footer_legal",
+            "title": "Privacy Policy",
+            "url": "/privacy-policy",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 1,
+            "is_active": true
+        },
+        {
+            "location": "footer_legal",
+            "title": "Terms & Conditions",
+            "url": "/terms-conditions",
+            "url_type": "internal",
+            "target": "_self",
+            "sort_order": 2,
+            "is_active": true
+        }
+    ],
+    "testimonials": [
+        {
+            "customer_name": "Sophie Laurent",
+            "customer_role": "Customer & Hospitality Partner",
+            "content": "Working with Platinum Hospitality Management has streamlined our operations and elevated brand standards. Their strategic approach makes them a trusted hospitality partner.",
+            "rating": 5,
+            "avatar": "images/platinum/testimonials/sophie-laurent.jpg",
+            "status": "published",
+            "is_featured": true,
+            "sort_order": 1
+        },
+        {
+            "customer_name": "Eveline Gagneux",
+            "customer_role": "Customer & Regular Diner",
+            "content": "Platinum Hospitality Management brings structure, consistency, and strategic clarity. Their operational expertise has significantly strengthened our brand performance and long-term growth.",
+            "rating": 5,
+            "avatar": "images/platinum/testimonials/eveline-gagneux.jpg",
+            "status": "published",
+            "is_featured": true,
+            "sort_order": 2
+        },
+        {
+            "customer_name": "Ahmed Al Mansoori",
+            "customer_role": "Customer & Investment Partner",
+            "content": "A highly professional team with deep industry knowledge. Platinum Hospitality Management delivers efficient systems, reliable execution, and sustainable growth across hospitality operations.",
+            "rating": 5,
+            "avatar": "images/platinum/testimonials/ahmed-al-mansoori.jpg",
+            "status": "published",
+            "is_featured": true,
+            "sort_order": 3
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What concepts are under Platinum Hospitality Management?",
+            "answer": "Platinum Hospitality Management operates three premier restaurant and café brands: Shakespeare Middle East (Victorian café & patisserie), Otantik Café & Restaurant (Middle Eastern & Mediterranean dining and shisha lounge), and Chinese Connection (contemporary pan-Asian & wok dining).",
+            "category": "general",
+            "status": "published",
+            "sort_order": 1
+        },
+        {
+            "question": "How can I apply for a restaurant franchise with Platinum Hospitality?",
+            "answer": "Visit our Franchise page or submit an inquiry via our contact form. Our franchising team provides end-to-end guidance including concept setup, site selection, kitchen architecture, staff training, and ongoing operational support.",
+            "category": "franchise",
+            "status": "published",
+            "sort_order": 2
+        },
+        {
+            "question": "Does Platinum Hospitality Management provide bespoke consulting for third-party venues?",
+            "answer": "Yes, we collaborate with property developers, investors, and hotel owners on turnkey F&B management, kitchen efficiency audits, menu engineering, and brand turnaround solutions.",
+            "category": "partnership",
+            "status": "published",
+            "sort_order": 3
+        }
+    ],
+    "offers": [
+        {
+            "title": "Corporate & Event Dining Privileges",
+            "slug": "corporate-event-dining-privileges",
+            "subtitle": "Exclusive catering and bespoke private dining across our portfolio",
+            "description": "Reserve private dining alcoves or corporate celebrations at any Shakespeare Middle East, Otantik, or Chinese Connection venue.",
+            "badge": "Signature Concierge",
+            "promo_code": "PLATINUM2026",
+            "is_active": true,
+            "is_featured": true,
+            "sort_order": 1
+        }
+    ]
+}
