@@ -12,9 +12,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        if (!app()->environment('testing')) {
-            Artisan::call('db:seed', ['--force' => true]);
-        }
+        // Seeding is executed cleanly via DatabaseSeeder (php artisan db:seed)
     }
 
     /**

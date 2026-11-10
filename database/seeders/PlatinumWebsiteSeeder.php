@@ -31,8 +31,7 @@ class PlatinumWebsiteSeeder extends Seeder
 
         $data = json_decode(File::get($dataFile), true);
 
-        DB::transaction(function () use ($data) {
-            // 1. Settings
+        // 1. Settings
             if (!empty($data['settings'])) {
                 foreach ($data['settings'] as $s) {
                     Setting::updateOrCreate(
@@ -51,7 +50,7 @@ class PlatinumWebsiteSeeder extends Seeder
 
             // 2. Opening Hours
             if (!empty($data['opening_hours'])) {
-                OpeningHour::truncate();
+                OpeningHour::query()->delete();
                 foreach ($data['opening_hours'] as $h) {
                     OpeningHour::create([
                         'day_of_week' => $h['day_of_week'],
@@ -138,7 +137,7 @@ class PlatinumWebsiteSeeder extends Seeder
             }
 
             // 5. Pages & Sections
-            PageSection::truncate();
+            PageSection::query()->delete();
             Page::query()->forceDelete();
 
             $pagesConfig = [
@@ -865,7 +864,7 @@ class PlatinumWebsiteSeeder extends Seeder
             }
 
             // 6. Navigation
-            NavigationItem::truncate();
+            NavigationItem::query()->delete();
             foreach ($data['navigation_items'] as $nav) {
                 $item = NavigationItem::create([
                     'location' => $nav['location'],
@@ -894,7 +893,7 @@ class PlatinumWebsiteSeeder extends Seeder
             }
 
             // 7. Testimonials
-            Testimonial::truncate();
+            Testimonial::query()->delete();
             foreach ($data['testimonials'] as $t) {
                 Testimonial::create([
                     'customer_name' => $t['customer_name'],
@@ -909,7 +908,7 @@ class PlatinumWebsiteSeeder extends Seeder
             }
 
             // 8. FAQs
-            Faq::truncate();
+            Faq::query()->delete();
             foreach ($data['faqs'] as $faq) {
                 Faq::create([
                     'question' => $faq['question'],
@@ -921,7 +920,7 @@ class PlatinumWebsiteSeeder extends Seeder
             }
 
             // 9. Offers
-            Offer::truncate();
+            Offer::query()->delete();
             foreach ($data['offers'] as $offer) {
                 Offer::create([
                     'title' => $offer['title'],
@@ -935,6 +934,5 @@ class PlatinumWebsiteSeeder extends Seeder
                     'sort_order' => $offer['sort_order'] ?? 0,
                 ]);
             }
-        });
     }
 }
